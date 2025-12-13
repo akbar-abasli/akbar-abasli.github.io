@@ -32,3 +32,31 @@ h3{
     font-style: italic;
     color: red;
 }
+.box1{
+    border: 2px solid;
+    width: 250px;
+    height: auto;
+    align-items: center;
+    padding: 2vb;
+    margin: 10px;
+}
+
+h2{
+    font-family: "Open Sans";
+    font-size: 18px;
+    align-items: center;
+}
+#about{
+    font-size: 13px;
+    font-family: "Open Sans";
+    font-style: italic;
+
+}
+
+#eminem{
+    width:85px;
+    height: 100px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
