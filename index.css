@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+  
+}
+form{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 17px 20px ;
+}
+
+button{
+    font-style: normal;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+label{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15px;
+}
+
+h2{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Ubuntu";
+}
+
+.circle1{
+    background-color: rgba(7, 119, 247, 0.767);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: -50vmin;
+    left: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    position: fixed;
+
+}
+a{
+    text-decoration: none;
+    color: hsl(244, 84%, 53%);
+}
